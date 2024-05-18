@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="12dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="170dp"
+            android:layout_height="match_parent"
+            android:text="Tên giáo viên:"
+            android:textSize="25dp"
+            android:textStyle="bold"
+            android:textColor="@color/purple"/>
+
+        <TextView
+            android:id="@+id/textViewTen"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="tên"
+            android:textSize="18dp"
+            android:gravity="center"
+            android:layout_marginLeft="50dp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="170dp"
+            android:layout_height="match_parent"
+            android:text="Giới tính:"
+            android:textSize="25dp"
+            android:textStyle="bold"
+            android:textColor="@color/purple"/>
+
+        <TextView
+            android:id="@+id/textViewGioiTinh"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="giới tính"
+            android:textSize="18dp"
+            android:gravity="center"
+            android:layout_marginLeft="50dp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="170dp"
+            android:layout_height="match_parent"
+            android:text="Địa chỉ:"
+            android:textSize="25dp"
+            android:textStyle="bold"
+            android:textColor="@color/purple"/>
+
+        <TextView
+            android:id="@+id/textViewDiaChi"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="địa chỉ"
+            android:textSize="18dp"
+            android:gravity="center"
+            android:layout_marginLeft="50dp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="170dp"
+            android:layout_height="match_parent"
+            android:text="Số điện thoại:"
+            android:textSize="25dp"
+            android:textStyle="bold"
+            android:textColor="@color/purple"/>
+
+        <TextView
+            android:id="@+id/textViewSoDienThoai"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="01213131"
+            android:textSize="18dp"
+            android:gravity="center"
+            android:layout_marginLeft="50dp"/>
+    </LinearLayout>
+</LinearLayout>
